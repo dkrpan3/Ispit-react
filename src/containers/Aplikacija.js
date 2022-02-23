@@ -54,7 +54,6 @@ function mapStateToProps(state) {
   return {
     profil: state.profil,
     inputLogina: state.inputLogina,
-    odabraniFilm: state.odabraniFilm,
   };
 }
 

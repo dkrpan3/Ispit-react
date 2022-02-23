@@ -11,5 +11,5 @@ export const dohvatiProfil = (input) => async (dispatch) => {
     .then((data) => {
       return data;
     });
-  dispatch({ type: PROFIL_USERA, payload: dohvatiProfil });
+  dispatch({ type: PROFIL_USERA, payload: dohvaceniProfil });
 };
