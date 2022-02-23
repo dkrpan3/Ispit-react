@@ -11,7 +11,7 @@ class Aplikacija extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    this.props.dohvatiProfil(this.props.promijeniInput);
+    this.props.dohvatiProfil(this.props.inputLogina);
   }
 
   render() {

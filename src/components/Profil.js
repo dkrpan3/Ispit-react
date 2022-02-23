@@ -1,9 +1,15 @@
 import React from "react";
 
-const Profil = (props) => {
+const Profil = ({ profil }) => {
   return (
-    <div className="list-group">
-      <span>{props.profil.login}</span>
+    <div>
+      {profil !== undefined ? (
+        <div>
+          <h2>{profil.login}</h2>
+        </div>
+      ) : (
+        <p>ne postoje rezultati</p>
+      )}
     </div>
   );
 };
