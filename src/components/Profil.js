@@ -1,8 +1,9 @@
 import React from "react";
+import { Card } from "react-bootstrap";
 
 const Profil = ({ profil }) => {
   return (
-    <div>
+    <Card>
       {profil !== undefined ? (
         <div>
           <h2>{profil.login}</h2>
@@ -13,7 +14,7 @@ const Profil = ({ profil }) => {
       ) : (
         <p>ne postoje rezultati</p>
       )}
-    </div>
+    </Card>
   );
 };
 

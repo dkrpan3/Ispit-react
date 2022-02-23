@@ -2,7 +2,7 @@ import { PROFIL_USERA, PROMIJENI_INPUT } from "./actions";
 
 const initialState = {
   inputLogina: "",
-  profil: "",
+  profil: [],
 };
 
 export default function reducer(state = initialState, action) {

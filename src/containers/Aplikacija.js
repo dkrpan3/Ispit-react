@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { promijeniInput, dohvatiProfil } from "../redux/actions";
 import Profil from "../components/Profil";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 
 class Aplikacija extends Component {
   handleChange(event) {
